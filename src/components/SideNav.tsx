@@ -1,20 +1,11 @@
 "use client";
 
-import {
-  BarChart,
-  Home,
-  Menu,
-  Package,
-  Settings,
-  Table,
-  Timer,
-  Users,
-} from "lucide-react";
+import { BarChart, Menu, Package, Settings, Table, Timer } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Button } from "./ui/button";
-import { Sheet, SheetTrigger, SheetContent, SheetClose } from "./ui/sheet";
 import { useIsMobile } from "./IsMobileProvider";
+import { Button } from "./ui/button";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 
 const TITLE = "Applications";
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import SideNav, { DesktopSideNav, MobileSideNav } from "@/components/SideNav";
+import { DesktopSideNav, MobileSideNav } from "@/components/SideNav";
 import ToggleThemSwitch from "@/components/ToggleThemSwitch";
 import IsMobileProvider from "@/components/IsMobileProvider";
 import { Label } from "@radix-ui/react-label";

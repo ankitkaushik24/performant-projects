@@ -6,6 +6,7 @@ import {
   getFilteredRowModel,
   getPaginationRowModel,
   flexRender,
+  ColumnDefTemplate,
 } from "@tanstack/react-table";
 import { numberTypes, rowData } from "./rowData";
 import { useComputed } from "@preact/signals-react";
@@ -24,7 +25,7 @@ const RowTotalCell = ({ row: { original, index } }) => {
   return <strong>{rowTotal}</strong>;
 };
 
-const DefaultCell = ({
+const DefaultCell: ColumnDefTemplate<any> = ({
   getValue,
   row: { index, original },
   column: {
