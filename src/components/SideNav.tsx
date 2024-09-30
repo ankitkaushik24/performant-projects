@@ -1,6 +1,6 @@
 "use client";
 
-import { BarChart, Menu, Package, Settings, Table, Timer } from "lucide-react";
+import { ListTodo, Menu, Package, Settings, Table, Timer } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useIsMobile } from "./IsMobileProvider";
@@ -13,7 +13,7 @@ const navItems = [
   { name: "Datatable", href: "/datatable", icon: Table },
   { name: "Products", href: "/products", icon: Package },
   { name: "Stopwatch", href: "/stopwatch", icon: Timer },
-  { name: "Analytics", href: "/analytics", icon: BarChart },
+  { name: "Todos", href: "/todos", icon: ListTodo },
   { name: "Settings", href: "/settings", icon: Settings },
 ];
 

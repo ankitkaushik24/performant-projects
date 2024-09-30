@@ -36,7 +36,6 @@ import Image from "next/image";
 import { useSignals } from "@preact/signals-react/runtime";
 
 const QuantityInput = ({ item }: { item: CartItem }) => {
-  // useSignals();
   return (
     <Input
       type="number"
@@ -158,7 +157,6 @@ const QuantityCountDisplay = ({ item }: { item: CartItem }) => {
 };
 
 const ProductsContainer = () => {
-  // useSignals();
   const { products, addToCart } = useProductSerivce();
 
   console.log("ProductsContainer rendered!");
