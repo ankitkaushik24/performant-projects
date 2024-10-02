@@ -1,14 +1,6 @@
 "use client";
 
-import {
-  ListTodo,
-  Loader,
-  Menu,
-  Package,
-  Settings,
-  Table,
-  Timer,
-} from "lucide-react";
+import { ListTodo, Loader, Menu, Package, Table, Timer } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useIsMobile } from "./IsMobileProvider";
