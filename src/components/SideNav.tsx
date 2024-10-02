@@ -1,6 +1,14 @@
 "use client";
 
-import { ListTodo, Menu, Package, Settings, Table, Timer } from "lucide-react";
+import {
+  ListTodo,
+  Loader,
+  Menu,
+  Package,
+  Settings,
+  Table,
+  Timer,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useIsMobile } from "./IsMobileProvider";
@@ -14,7 +22,7 @@ const navItems = [
   { name: "Products", href: "/products", icon: Package },
   { name: "Stopwatch", href: "/stopwatch", icon: Timer },
   { name: "Todos", href: "/todos", icon: ListTodo },
-  { name: "Settings", href: "/settings", icon: Settings },
+  { name: "Loaders", href: "/loaders", icon: Loader },
 ];
 
 const NavItems = () => {

@@ -38,7 +38,7 @@ export default function RootLayout({
             <header className="shadow-md py-4 px-6 flex gap-4 items-center">
               <MobileSideNav />
               <h1 className="text-2xl font-bold">
-                Projects depicting perf practices
+                React, Nextjs + Signals (Preact) Performance Practices
               </h1>
               <Label className="ml-auto flex items-center gap-2">
                 Dark

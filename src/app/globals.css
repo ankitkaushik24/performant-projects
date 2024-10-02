@@ -82,3 +82,16 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes brightness {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(0.4);
+  }
+}
+
+.animate-brightness {
+  animation: brightness 0.5s infinite alternate ease-out;
+}
